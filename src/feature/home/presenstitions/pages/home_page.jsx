@@ -65,10 +65,10 @@ const HomePage = () => {
         return (
                 <>
                         {/* <Box sx={{ height: '40%', }}> */}
-                                <HeaderMain
-                                        onClickAddBook={handleClickAddBook}
-                                        onClickShowSoldBook={onClickShowSoldBook}
-                                />
+                        <HeaderMain
+                                onClickAddBook={handleClickAddBook}
+                                onClickShowSoldBook={onClickShowSoldBook}
+                        />
                         {/* </Box> */}
 
                         <Box sx={{
@@ -80,8 +80,12 @@ const HomePage = () => {
                         </Box>
 
                         <Box sx={{
-                                display: 'flex',
-                                flexWrap: 'wrap',
+                                display: {
+                                        xs: 'block',
+                                        md: 'flex',
+                                        xl: 'flex'
+                                },
+                                flexWrap: { xl: 'wrap' },
                                 alignItems: 'center',
                                 justifyContent: 'center',
                                 justifyItems: 'center',

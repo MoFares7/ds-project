@@ -11,7 +11,10 @@ const BookCard = ({ image, bookNumber, bookName, authorName, price, handleBuyBoo
                         m: 2,
                         borderRadius: 2,
                         border: '1px solid',
-                        width: '25%',
+                        width: {
+                                md: '25%',
+                                xl: '25%'
+                        },
                         transition: 'transform 0.4s ease',
                         '&:hover': {
                                 transform: 'scale(0.97)',

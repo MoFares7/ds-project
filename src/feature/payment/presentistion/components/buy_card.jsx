@@ -11,7 +11,7 @@ const BuyCard = ({ bookName, bookNumber, buyerName, date }) => {
                         m: 2,
                         borderRadius: 2,
                         border: '1px solid',
-                        width: '25%',
+                        width: { xl: '25%' },
                         alignItems: 'center',
                         transition: 'transform 0.4s ease',
                         '&:hover': {

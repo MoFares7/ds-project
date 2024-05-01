@@ -54,7 +54,18 @@ const PaymentOperationPage = () => {
                         <MDTypography typography={typography.d6}>
                                 Books Sold
                         </MDTypography>
-                        <Box display="flex" flexWrap="wrap" justifyContent="center">
+                        <Box sx={{
+                                display: {
+                                        xs: 'block',
+                                        md: 'flex',
+                                        xl: 'flex'
+                                },
+                                flexWrap: {
+                                        md: "wrap",
+                                        xl: "wrap"
+                                },
+                                justifyContent: "center"
+                        }} >
                                 {buys.map((buy) => (
                                         <BuyCard
                                                 key={buy.id}
