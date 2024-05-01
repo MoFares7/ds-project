@@ -21,7 +21,7 @@ const BookCard = ({ image, bookNumber, bookName, authorName, price, handleBuyBoo
                                 <CardMedia
                                         component="img"
                                         src={headerImage}
-                                        style={{ width: '100%', height: '200px', objectFit: 'revert' }}
+                                        style={{ width: '100%', height: '200px', objectFit: 'cover' }}
                                 >
                                 </CardMedia>
                         </Card>

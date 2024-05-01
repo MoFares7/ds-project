@@ -10,158 +10,42 @@ const PaymentOperationPage = () => {
         const buys = [
                 {
                         "id": 1,
-                        "bookName": "Malcom",
+                        "bookName": "Malcom", "bookNumber": "213",
                         "buyerName": "Mo Fares",
                         "date": "12/3/2024"
                 },
                 {
                         "id": 2,
-                        "bookName": "Software Engineer",
+                        "bookName": "Software Engineer", "bookNumber": "213",
                         "buyerName": "Mo Fares",
                         "date": "4/2/2024"
                 },
                 {
                         "id": 3,
                         "bookName": "Malcom",
-                        "buyerName": "Mo Fares",
+                        "buyerName": "Mo Fares", "bookNumber": "213",
                         "date": "18/7/2023"
                 }, {
                         "id": 3,
                         "bookName": "Malcom",
-                        "buyerName": "Mo Fares",
+                        "buyerName": "Mo Fares", "bookNumber": "213",
                         "date": "18/7/2023"
                 }, {
                         "id": 3,
                         "bookName": "Malcom",
-                        "buyerName": "Mo Fares",
+                        "buyerName": "Mo Fares", "bookNumber": "213",
                         "date": "18/7/2023"
                 }, {
                         "id": 3,
                         "bookName": "Malcom",
-                        "buyerName": "Mo Fares",
+                        "buyerName": "Mo Fares", "bookNumber": "213",
                         "date": "18/7/2023"
                 }, {
                         "id": 3,
                         "bookName": "Malcom",
-                        "buyerName": "Mo Fares",
+                        "buyerName": "Mo Fares", "bookNumber": "213",
                         "date": "18/7/2023"
-                }, {
-                        "id": 3,
-                        "bookName": "Malcom",
-                        "buyerName": "Mo Fares",
-                        "date": "18/7/2023"
-                }, {
-                        "id": 3,
-                        "bookName": "Malcom",
-                        "buyerName": "Mo Fares",
-                        "date": "18/7/2023"
-                }, {
-                        "id": 3,
-                        "bookName": "Malcom",
-                        "buyerName": "Mo Fares",
-                        "date": "18/7/2023"
-                }, {
-                        "id": 3,
-                        "bookName": "Malcom",
-                        "buyerName": "Mo Fares",
-                        "date": "18/7/2023"
-                }, {
-                        "id": 3,
-                        "bookName": "Malcom",
-                        "buyerName": "Mo Fares",
-                        "date": "18/7/2023"
-                }, {
-                        "id": 3,
-                        "bookName": "Malcom",
-                        "buyerName": "Mo Fares",
-                        "date": "18/7/2023"
-                }, {
-                        "id": 3,
-                        "bookName": "Malcom",
-                        "buyerName": "Mo Fares",
-                        "date": "18/7/2023"
-                }, {
-                        "id": 3,
-                        "bookName": "Malcom",
-                        "buyerName": "Mo Fares",
-                        "date": "18/7/2023"
-                }, {
-                        "id": 3,
-                        "bookName": "Malcom",
-                        "buyerName": "Mo Fares",
-                        "date": "18/7/2023"
-                }, {
-                        "id": 3,
-                        "bookName": "Malcom",
-                        "buyerName": "Mo Fares",
-                        "date": "18/7/2023"
-                }, {
-                        "id": 3,
-                        "bookName": "Malcom",
-                        "buyerName": "Mo Fares",
-                        "date": "18/7/2023"
-                }, {
-                        "id": 3,
-                        "bookName": "Malcom",
-                        "buyerName": "Mo Fares",
-                        "date": "18/7/2023"
-                }, {
-                        "id": 3,
-                        "bookName": "Malcom",
-                        "buyerName": "Mo Fares",
-                        "date": "18/7/2023"
-                }, {
-                        "id": 3,
-                        "bookName": "Malcom",
-                        "buyerName": "Mo Fares",
-                        "date": "18/7/2023"
-                }, {
-                        "id": 3,
-                        "bookName": "Malcom",
-                        "buyerName": "Mo Fares",
-                        "date": "18/7/2023"
-                }, {
-                        "id": 3,
-                        "bookName": "Malcom",
-                        "buyerName": "Mo Fares",
-                        "date": "18/7/2023"
-                }, {
-                        "id": 3,
-                        "bookName": "Malcom",
-                        "bookNumber": "213",
-                        "buyerName": "Mo Fares",
-                        "date": "18/7/2023"
-                }, {
-                        "id": 3,
-                        "bookName": "Malcom",
-                        "bookNumber": "856",
-                        "buyerName": "Mo Fares",
-                        "date": "18/7/2023"
-                }, {
-                        "id": 3,
-                        "bookName": "Malcom",
-                        "bookNumber": "77",
-                        "buyerName": "Mo Fares",
-                        "date": "18/7/2023"
-                }, {
-                        "id": 3,
-                        "bookName": "Malcom",
-                        "bookNumber": "213",
-                        "buyerName": "Mo Fares",
-                        "date": "18/7/2023"
-                }, {
-                        "id": 3,
-                        "bookName": "Malcom",
-                        "bookNumber": "213",
-                        "buyerName": "Mo Fares",
-                        "date": "18/7/2023"
-                }, {
-                        "id": 3,
-                        "bookNumber": "213",
-                        "bookName": "Malcom",
-                        "buyerName": "Mo Fares",
-                        "date": "18/7/2023"
-                },
+                }
         ];
 
         return (

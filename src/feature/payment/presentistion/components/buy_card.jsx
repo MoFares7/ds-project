@@ -23,7 +23,7 @@ const BuyCard = ({ bookName, bookNumber, buyerName, date }) => {
                                         <CardMedia
                                                 component="img"
                                                 src={image}
-                                                style={{ borderRadius: '7x 7px 0px 0px', width: '100%', height: '100%', objectFit: 'revert' }}
+                                                style={{ borderRadius: '7x 7px 0px 0px', width: '100%', height: '100%', objectFit: 'cover' }}
                                         >
                                         </CardMedia>
                                 </Card>

@@ -39,29 +39,38 @@ const HomePage = () => {
                 {
                         "number": 2,
                         "name": "MALCOLM  ME",
-                        "author": "Mo Hadi",
+                        "author": "Alexander",
                         "price": "1099",
                 },
                 {
                         "number": 3,
                         "name": "MALCOLM  ME",
-                        "author": "Mo Alaa",
+                        "author": "Makc",
                         "price": "999",
                 },
                 {
                         "number": 4,
                         "name": "MALCOLM  ME",
-                        "author": "Mo Anas",
+                        "author": "Tester",
                         "price": "1199",
+                },
+                {
+                        "number": 4,
+                        "name": "MALCOLM  ME",
+                        "author": "Soft",
+                        "price": "500",
                 },
         ];
 
         return (
                 <>
-                        <HeaderMain
-                                onClickAddBook={handleClickAddBook}
-                                onClickShowSoldBook={onClickShowSoldBook}
-                        />
+                        {/* <Box sx={{ height: '40%', }}> */}
+                                <HeaderMain
+                                        onClickAddBook={handleClickAddBook}
+                                        onClickShowSoldBook={onClickShowSoldBook}
+                                />
+                        {/* </Box> */}
+
                         <Box sx={{
                                 display: 'flex',
                                 py: 3,

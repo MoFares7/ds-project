@@ -9,11 +9,11 @@ import './style/button.css';
 const HeaderMain = ({ onClickAddBook, onClickShowSoldBook }) => {
         return (
 
-                <Box sx={{ display: 'flex', backgroundColor: colors.dark.main }}>
+                <Box sx={{ display: 'flex', backgroundColor: colors.dark.main, height: '65vh' }}>
                         <Box sx={{
                                 display: 'flex',
-                                // flexDirection: 'column',
-                                width: '35%', backgroundColor: colors.gradients.dark.main,
+                                width: '40%',
+                                backgroundColor: colors.gradients.dark.main,
                                 alignItems: 'center',
                                 textAlign: 'center',
                         }}>
@@ -38,17 +38,14 @@ const HeaderMain = ({ onClickAddBook, onClickShowSoldBook }) => {
                                 </Box>
 
                         </Box>
-                        <Card sx={{ width: '65%' }}>
+                        <Card sx={{ width: '60%' }}>
                                 <CardMedia
                                         component="img"
                                         src={headerImage}
-                                        style={{ width: '100%', height: '500px', objectFit: 'revert' }}
+                                        style={{ width: '100%', objectFit: 'cover' }}
                                 >
                                 </CardMedia>
                         </Card>
-                        {/* <Box sx={{ width: '65%' }}>
-                                        oo
-                                </Box> */}
                 </Box>
         )
 }
