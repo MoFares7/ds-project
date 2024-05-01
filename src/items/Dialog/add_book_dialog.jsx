@@ -126,6 +126,7 @@ const AddBookDialog = ({ isDialogOpen, onCloseDialog }) => {
                                         <Box display="flex" justifyContent="space-between">
                                                 <Button onClick={handleAddGoodsType}
                                                         sx={{
+                                                                m: 1,
                                                                 backgroundColor: colors.gradients.dark.main,
                                                                 color: '#fff',
                                                                 '&:hover': {
@@ -133,8 +134,12 @@ const AddBookDialog = ({ isDialogOpen, onCloseDialog }) => {
                                                                 }
                                                         }}> Add
                                                 </Button>
+
                                                 <Button onClick={handleDialogClose}
-                                                        sx={{ color: colors.black.main }}
+                                                        sx={{
+                                                                m: 1,
+                                                                color: colors.black.main
+                                                        }}
                                                 >Close
                                                 </Button>
                                         </Box>

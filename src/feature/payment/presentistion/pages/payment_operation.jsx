@@ -128,30 +128,36 @@ const PaymentOperationPage = () => {
                 }, {
                         "id": 3,
                         "bookName": "Malcom",
+                        "bookNumber": "213",
                         "buyerName": "Mo Fares",
                         "date": "18/7/2023"
                 }, {
                         "id": 3,
                         "bookName": "Malcom",
+                        "bookNumber": "856",
                         "buyerName": "Mo Fares",
                         "date": "18/7/2023"
                 }, {
                         "id": 3,
                         "bookName": "Malcom",
+                        "bookNumber": "77",
                         "buyerName": "Mo Fares",
                         "date": "18/7/2023"
                 }, {
                         "id": 3,
                         "bookName": "Malcom",
+                        "bookNumber": "213",
                         "buyerName": "Mo Fares",
                         "date": "18/7/2023"
                 }, {
                         "id": 3,
                         "bookName": "Malcom",
+                        "bookNumber": "213",
                         "buyerName": "Mo Fares",
                         "date": "18/7/2023"
                 }, {
                         "id": 3,
+                        "bookNumber": "213",
                         "bookName": "Malcom",
                         "buyerName": "Mo Fares",
                         "date": "18/7/2023"
@@ -169,6 +175,7 @@ const PaymentOperationPage = () => {
                                         <BuyCard
                                                 key={buy.id}
                                                 bookName={buy.bookName}
+                                                bookNumber={buy.bookNumber}
                                                 buyerName={buy.buyerName}
                                                 date={buy.date}
                                         />
